@@ -63,6 +63,33 @@ header .main .nav a.list{
     height: 659px;
     background: url("../img/bg.jpeg")no-repeat center/cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    overflow: hidden;
+}
+.banner .box .text-box{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 20px 40px;
+}
+.banner .box .text-box .intro{
+    font-size: 30px;
+    font-weight: 300;
+}
+.banner .box .text-box h2{
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 7px double red;
+    border-top: 7px double red;
+    line-height: 1.5;
+}
+.banner .box .text-box h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin:20px 0 ;
 }
 
 /*welcome*/
@@ -84,35 +111,46 @@ header .main .nav a.list{
     color: black;
 }
 /*features*/
-.features{
-    background: #8ab839;
-    padding:60px 0;
+.feature{
+	background: #D9EDF7;
 }
-.feat{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 5px;
+.feature .title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: 700;
 }
-.features .container .row li{
-    padding: 40px 0;
+.feature .con{
+	padding: 46px 0;
 }
-.features .container .row li .text h2{
-    margin-top: 0;
-    padding-left: 28px;
-    text-align: center;
+.feature .con .row li{
+	margin: 30px 0;
+  height: 115px;
 }
-.features .container .row .text p{
-    padding-left:28px;
-    text-align: center;
+.feature .con .pic{
+	text-align: center;
+}
+.feature .con .pic img{
+	width: 100px;
+	height: 100px;
+}
+.feature .con .text{
+	text-align: left;
+	padding: 20px 0 0 25px;
+}
+.feature .con .text h2{
+	margin-top: 0;
+	color: #2e2e2e;
+    font-weight: 400;
+    font-size: 25px;
+}
+.feature .con .text p{
+	font-weight: 400;
+    font-size: 15px;
+    color: #2E2E2E;
 }
 
 /*portfolio*/
-.Portfolio{
-    padding:60px 0;
-}
 .Portfolio .container .title{
     margin-bottom: 30px;
     margin-top: 30px;
@@ -229,14 +267,17 @@ textarea{
     header .main .nav a.list{
         display: none;
     }
+    .features .container .row li .text{
+    	margin: 0 20px;
+    }
     .features .container .row li .text h2{
         margin-top: 0;
         padding-left: 18px;
-        text-align: left;
+        text-align: center;
     }
     .features .container .row .text p{
         padding-left:18px;
-        text-align: left;
+        text-align: center;
     }
 }
 
