@@ -1,0 +1,159 @@
+.tou{
+    width:100%;
+    height:5.7rem;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.tou .pingyin{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+    margin-top: 0.3rem;
+}
+.tou .huanying{
+    width: 2.8rem;
+    height: 0.33rem;
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.tou .huanying .zuo{
+    width:0.6rem;
+    height:0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.tou .huanying .zuo .yi{
+    width:0.12rem;
+    height:0.12rem;
+    border-radius: 50%;
+    background: rgba(37,241,229,0.3);
+}
+.tou .huanying .zuo .er{
+    width:0.14rem;
+    height:0.14rem;
+    border-radius: 50%;
+    background: rgba(37,241,229,0.6);
+}
+.tou .huanying .zuo .san{
+    width:0.16rem;
+    height:0.16rem;
+    border-radius: 50%;
+    background: rgb(37,241,229);
+}
+.tou .huanying .zhong{
+    font-size: 0.28rem;
+    color: rgb(37,241,229);
+}
+.huang{
+    width: 4.65rem;
+    height:0.26rem;
+    background: #efdf2e;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    box-shadow: 0 -0.01rem 0.1rem #efdf2e;
+    margin: 0 auto;
+}
+.kuang{
+    width:5.52rem;
+    height:3.7rem;
+    background: #f1f1f1;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.1rem #f1f1f1;
+    margin: 0 auto;
+    padding: 0.25rem 0.55rem 0 0.55rem;
+    position: relative;
+}
+.kuang .yi{
+    width:100%;
+    height:0.2rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.kuang .yi .yuan{
+    width:0.16rem;
+    height:0.16rem;
+    border-radius: 50%;
+    background: #c8c8c8;
+    margin-left: 0;
+}
+.kuang .yi .yuan1{
+    margin-left: 0.4rem;
+    background: #23b1f3;
+    box-shadow: 0 0 0.1rem #23b1f3;
+}
+.kuang .yu{
+    width:100%;
+    height:0.5rem;
+    display: flex;
+    align-items:center;
+    margin-top: 0.35rem;
+}
+.kuang .yu1{
+    margin-top: 0.6rem;
+}
+.kuang .yu .zuo{
+    width: 0.3rem;
+    height: 0.15rem;
+    background: #16e7a7;
+    box-shadow: 0 0 0.1rem #16e7a7;
+    border-radius: 0.15rem;
+}
+.kuang .yu .you{
+    flex-grow:1;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+}
+.kuang .yu .you .wen{
+    border: none;
+    background: none;
+    flex-grow:1;
+    height:100%;
+    padding-left: 0.15rem;
+}
+.kuang .yu .you .yanzheng{
+    width:1.46rem;
+    height: 0.48rem;
+    background-image: url("../img/zhuce/yanzheng.png");
+    background-size: cover;
+    font-size: 0.18rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.kuang .wangji{
+    width: 100%;
+    height:0.22rem;
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.27rem;
+}
+.kuang .wangji .wenhao{
+    margin-right: 0.1rem;
+}
+.kuang .queren .querens{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -0.45rem;
+}
+.di{
+    width:100%;
+    height: 3rem;
+    padding: 0 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.di .san .qq{
+    margin: 0 0.7rem;
+}

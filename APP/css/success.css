@@ -1,0 +1,69 @@
+header{
+    width: 100%;
+    height: 5.91rem;
+    display: flex;
+    background-image: url("../img/jvxin.png");
+    background-size: 100% 5.91rem;
+}
+.mima{
+    width: 100%;
+    height: 1.6rem;
+    /*background: palevioletred;*/
+    border-bottom: 0.05rem solid #f5f5f5;
+    float: left;
+}
+.qianb{
+    width: 2rem;
+    height: 0.6rem;
+    background-image: url("../img/jiayi.png");
+    background-size: 0.6rem 0.5rem;
+    background-repeat: no-repeat;
+    font-size: 0.3rem;
+    text-align: right;
+    line-height: 0.6rem;
+    margin: 0.4rem auto 0rem;
+}
+.mima .yi{
+    font-size:0.2rem ;
+    text-align: center;
+}
+.mima i{
+    font-size: 0.3rem;
+    float: right;
+    margin-top: -0.6rem;
+    margin-right: 0.5rem;
+}
+ul .renm{
+    font-size: 0.3rem;
+    color: #fd2c7c;
+    text-align: center;
+}
+ul .qi{
+    font-size: 0.45rem;
+    color: #fd2c7c;
+}
+ul .nin{
+    font-size: 0.2rem;
+    color: #fd2c7c;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+ul .duihao img{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.95rem auto 0rem;
+}
+ul .jixvg {
+    display: flex;
+    justify-content:space-around;
+
+}
+ul .jixvg .zuo img{
+    width: 2.04rem;
+    height: 0.63rem;
+}
+ul .jixvg .you img{
+    width: 2.04rem;
+    height: 0.63rem;
+}

@@ -1,0 +1,249 @@
+
+
+
+
+/* 公共样式（手机，小于 768px） */
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing:border-box;.
+    
+}
+header {
+    width: 100%;
+    height: 60px;
+    background:rgba(33,42,63,0.4);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+header:hover {
+    background:#212A3F;
+}
+header .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .main .title{
+    color:rgba(255,0,0,0.4);
+    font-size: 30px;
+    line-height:60px;
+}
+header:hover .title{
+   color:red;
+
+}
+header .main .nav a{
+    color:rgba(197,197,197,0.4);
+    font-size: 20px;
+    line-height:60px;
+    padding-right: 10px;
+}
+
+
+header .main .nav a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+header .main .nav a.link{
+    display: none;
+}
+header .main .nav a.list{
+    display: inline;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 659px;
+    background: url("../img/bg.jpeg")no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+/*welcome*/
+.welcome{
+    padding:40px 0;
+    float: left;
+    background: #fff;
+}
+.welcome h2{
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+    color: black;
+}
+.welcome p{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+/*features*/
+.features{
+    background: #8ab839;
+    padding:60px 0;
+}
+.feat{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.features .container .row li{
+    padding: 40px 0;
+}
+.features .container .row li .text h2{
+    margin-top: 0;
+    padding-left: 28px;
+    text-align: center;
+}
+.features .container .row .text p{
+    padding-left:28px;
+    text-align: center;
+}
+
+/*portfolio*/
+.Portfolio{
+    padding:60px 0;
+}
+.Portfolio .container .title{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.Portfolio .container .con ul a li{
+     margin:20px 0px;
+     padding-right: 0;
+     transition: all 0.5s;
+     position: relative;
+     overflow: hidden;
+
+    /*background: red;*/
+ }
+.Portfolio .container .con ul a li:hover{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0,0.1);
+    transform:translateX(5px);
+    transform:translateY(-5px);
+}
+.container .con ul a li img{
+    display:block;
+    width: 100%;
+    height: 200px;
+}
+.container .con ul a li span{
+    display:block;
+    width: 100%;
+    height: 56px;
+    margin:0 auto;
+    background: #4cae4c;
+    padding-left: 0;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    line-height: 56px;
+    position: absolute;
+    bottom:-56px;
+    left: 15px;
+    /*right:0px;*/
+    transition: all 0.5s;
+}
+.Portfolio .container .con ul a li:hover span{
+    bottom:0;
+}
+
+
+/*日志*/
+.journal{
+    /*background: yellow;*/
+     padding: 60px 0;
+
+}
+.journal h2{
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+    color: black;
+
+}
+textarea{
+    width: 100%;
+    resize: none;
+    background: url("../img/rizhi.jpg")no-repeat center/contain;
+    border-radius: 10px;
+}
+.but{
+    float:right;
+}
+.reset{
+   margin-left: 300px;
+}
+.sunmit{
+    /*float:right;*/
+}
+
+/*contact*/
+.contact{
+    padding:20px 0;
+    margin-bottom: 10px;
+    background: #212A3F;
+    margin-left: 0;
+    /*display:flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+}
+.contact .container .con .row {
+    display: block;
+    margin-left: -50px;
+
+}
+.contact .container .con .row li i{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+}
+.contact .container .con .row li span{
+    display: block;
+    font-size:20px;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width:768px) {
+    header .main .nav a.link{
+        display: inline;
+    }
+    header .main .nav a.list{
+        display: none;
+    }
+    .features .container .row li .text h2{
+        margin-top: 0;
+        padding-left: 18px;
+        text-align: left;
+    }
+    .features .container .row .text p{
+        padding-left:18px;
+        text-align: left;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 998px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width:1200px){}

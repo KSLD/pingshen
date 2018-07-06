@@ -1,0 +1,169 @@
+.tou{
+    width:100%;
+    height:2.3rem;
+    padding: 0 0.24rem;
+    background-image: url("../img/header/hbg.png");
+}
+.tou .daohang{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tou .daohang .dingbu{
+    width: 100%;
+    height:0.88rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.tou .daohang .dingbu .timu{
+    margin: 0 auto;
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.tou .daohang .dingbu .timupin{
+    margin: 0 auto;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.24rem;
+}
+.tou .touxiang{
+    width:100%;
+    height:1.42rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tou .touxiang .zuo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tou .touxiang .zuo .nicheng{
+    flex-grow:1;
+    padding-left: 0.3rem;
+}
+.tou .touxiang .zuo .nicheng .yeyu{
+    font-size: 0.28rem;
+    color: #ffffff;
+    display: block;
+}
+.tou .touxiang .zuo .nicheng .yeyu1{
+    margin-top: 0.27rem;
+    font-size: 0.24rem;
+}
+.zhong{
+    width:100%;
+    height:1.42rem;
+    padding: 0 0.24rem;
+    border-bottom: 0.05rem solid rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.zhong .huo .dong{
+    font-size: 0.28rem;
+    text-align: center;
+}
+.zhong .huo .dong1{
+    font-size: 0.3rem;
+    color: #e73583;
+    margin-bottom: 0.2rem;
+}
+.zhong .huo .dong2{
+    font-size: 0.3rem;
+    color: #f1b460;
+    margin-bottom: 0.2rem;
+}
+.zhong .huo .dong3{
+    font-size: 0.3rem;
+    color: #1ed6c0;
+    margin-bottom: 0.2rem;
+}
+.neirong{
+    display: block;
+    width: 100%;
+    height:auto;
+    border-bottom: 0.05rem solid rgba(0,0,0,0.1);
+}
+.neirong .hang{
+    width: 6.63rem;
+    height: 1.05rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 0 auto;
+}
+.neirong .hang .zuo{
+    display: flex;
+    width: 1.8rem;
+    height:100%;
+    align-items:center;
+}
+.neirong .hang .zuo .iconfont{
+    margin-right: 0.15rem;
+}
+.neirong .hang .zuo .nei{
+    flex-grow:1;
+}
+.neirong .hang .zuo .nei span{
+    display: block;
+    font-size: 0.28rem;
+}
+.neirong .hang1{
+    border-bottom: none;
+}
+.neirong .hang .you{
+    display: flex;
+    align-items:center;
+}
+.neirong .hang .you span{
+    font-size: 0.18rem;
+    margin-right: 0.17rem;
+    color: rgba(0,0,0,0.6);
+}
+.neirong1{
+    border-bottom: none;
+}
+.dibu{
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 -0.01rem 0.03rem 0 rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 999;
+}
+.dibu a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 0.18rem;
+    height: 100%;
+}
+.dibu > .shouye > i{
+    font-size: 0.5rem;
+}
+.dibu > .dingdan > i{
+    font-size: 0.5rem;
+}
+.dibu > .wode > i{
+    font-size: 0.5rem;
+}
+.dibu a.active i{
+    color: red;
+}
+.dibu a.active span{
+    color: red;
+}

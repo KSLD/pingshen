@@ -1,0 +1,264 @@
+header{
+     width: 100%;
+     height: 2.03rem;
+     padding: 0 0.24rem;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     background-image: url("../img/header/hbg.png");
+     background-size: 100% 100%;
+ }
+.hleft{
+    width: 2rem;
+    height: 0.32rem;
+    margin-top: 0.33rem;
+    color: white;
+    float: left;
+    font-size: 0.14rem;
+    line-height: 0.32rem;
+}
+.hleft i{
+    color: white;
+}
+.hright{
+    width: 4.5rem;
+    float:right;
+    margin-top: 0.33rem;
+    overflow: hidden;
+    position: relative;
+}
+.hright > input{
+    display: block;
+    width: 4.5rem;
+    height: 0.32rem;
+    border-radius: 0.09rem;
+    padding-left: 0.6rem;
+}
+.hright > i{
+    display: inline-block;
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    line-height: 0.32rem;
+}
+nav{
+    width: 100%;
+    height: 3.46rem;
+}
+.lunboyi{
+    width: 100%;
+    height: 3rem;
+    background: #ffffff;
+}
+.lunboyi .box{
+    width: 1.5rem;
+    height:1.6rem;
+    font-size: 0.18rem;
+    float: left;
+    text-align: center;
+}
+.lunboyi .box img{
+    display: block;
+    width: 0.97rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+    margin-top: 0.1rem;
+}
+.lunboyi .box .bottom{
+    width: 100%;
+    height: 0.23rem;
+    margin-top:0.2rem;
+}
+.bottom > .dot{
+    width: 0.48rem;
+    height: 100%;
+    margin: 0.3rem auto 0;
+}
+.bottom > .dot > .dot1{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 0.1rem;
+    background: red;
+    float: left;
+    margin: 0 auto;
+}
+.bottom > .dot > .dot2{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #ffffff;
+    border: 0.01rem solid black;
+    border-radius: 0.5rem;
+    float: right;
+}
+.youhui{
+    width: 100%;
+    height:2.5rem;
+    margin-top: 0.30rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+h3{
+    font-size: 0.30rem;
+    font-weight: normal;
+}
+.youhui > .title{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.youhui > .bottom {
+    width: 100%;
+    height: 1.93rem;
+    display: flex;
+    margin:auto 0;
+    justify-content: space-around;
+}
+.youhui > .bottom > img{
+    display: block;
+    height: 100%;
+}
+.tuijian{
+    width:100%;
+    height:0.84rem;
+    margin-top: 0.24rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-bottom: 0.2rem;
+}
+.tuijian .title{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.tuijian .type{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tuijian .type a{
+    display: flex;
+    font-size: 0.28rem;
+}
+.dianpu{
+    width: 100%;
+    padding-right:0.24rem;
+    padding-left: 0.24rem;
+    margin-bottom: 1rem;
+}
+.dianpu .waibian{
+    width: 100%;
+    height: 2.12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.dianpu .waibian .dpleft{
+    width: 2.24rem;
+    height: 2.08rem;
+    margin-right: 0.24rem;
+}
+.dianpu .waibian .dpleft img{
+    width: 2.24rem;
+    height: 2.08rem;
+}
+.dianpu .waibian .dpright{
+    flex-grow: 1;
+    height: 100%;
+    font-size: 0.18rem;
+}
+.dianpu .waibian .dpright .top{
+    width: 100%;
+    height: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dianpu .waibian .dpright .top .zuo1{
+    width: 0.88rem;
+    height: 100%;
+}
+.dianpu .waibian .dpright .top .zuo1 h3{
+    font-size: 0.20rem;
+}
+.dianpu .waibian .dpright .top .you1{
+    display: flex;
+    height: 0.09rem;
+}
+.dianpu .waibian .dpright .top .you1 img{
+    align-items: center;
+}
+.dianpu .waibian .dpright .sc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.18rem;
+}
+.dianpu .waibian .dpright .sc .zuo2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.dianpu .waibian .dpright .sc .zuo2 img{
+    width: 0.86rem;
+    height: 0.16rem;
+}
+.dianpu .waibian .dpright .thr{
+    width: 100%;
+}
+.dianpu .waibian .dpright .fou img{
+    width:1.5rem;
+    height: 0.3rem;
+}
+.dianpu .waibian .dpright .last{
+    width: 4.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.dianpu .waibian .dpright .last img{
+    width: 0.26rem;
+    height: 0.26rem;
+    display: block;
+    margin-top: 0.02rem;
+    margin-right: 0.02rem;
+}
+.dibu{
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 -0.01rem 0.03rem 0 rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+.dibu a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 0.18rem;
+    height: 100%;
+}
+.dibu > .shouye > i{
+    font-size: 0.5rem;
+}
+.dibu > .dingdan > i{
+    font-size: 0.5rem;
+}
+.dibu > .wode > i{
+     font-size: 0.5rem;
+ }
+.dibu a.active i{
+    color: red;
+}
+.dibu a.active span{
+    color: red;
+}

@@ -1,0 +1,150 @@
+header{
+    width: 100%;
+    height: 0.9rem;
+    background-image: url("../img/header/hbg.png");
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header .top{
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+header .bottom{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    color: white;
+}
+.kong{
+    width: 100%;
+    height: 0.25rem;
+    /*background: green;*/
+}
+.shangdian{
+    width: 7.02rem;
+    height: 2.44rem;
+    margin: 0 auto;
+    background-image: url("../img/dingdanbg.png");
+    background-size: 100% 100%;
+    margin-top: 0.16rem;
+    display: flex;
+}
+.shangdian .left{
+    width: 1.86rem;
+    /*background: red;*/
+}
+.shangdian .left .top{
+    display: block;
+    margin: 0.3rem auto 0;
+    width: 0.8rem;
+    height: 0.8rem;
+
+}
+.shangdian .left .zhongjian{
+
+    display: block;
+    margin: 0.35rem auto 0;
+    width: 0.95rem;
+    height: 0.2rem;
+}
+.shangdian .left .bottom{
+    width: 1.07rem;
+    height: 0.3rem;
+    margin: 0.1rem auto;
+    background: #ec4040;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.24rem;
+    color: white;
+}
+.shangdian .right{
+    flex-grow: 1;
+    padding-right: 0.32rem;
+    padding-left: 0.5rem;
+}
+.shangdian .right h1{
+    font-size: 0.22rem;
+    margin-top: 0.2rem;
+}
+.shangdian .right .yingwen{
+    font-size: 0.18rem;
+    margin-top: 0.03rem;
+    color: #d6d6d6;
+}
+.shangdian .right .jieshao1{
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    color: #676767;
+}
+.shangdian .right .jieshao2{
+    font-size: 0.18rem;
+}
+.shangdian .right .time{
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.15rem;
+    color: #676767;
+}
+.shangdian .right .time img{
+    display: block;
+    width: 0.22rem;
+    height: 0.2rem;
+}
+.shangdian .right .time img:nth-child(1){
+    margin-right: 0.09rem;
+}
+.shangdian .right .time img:nth-child(2){
+    margin-right: 0.09rem;
+    margin-left: 0.23rem;
+    width: 0.18rem;
+}
+.dibu{
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0 -0.01rem 0.03rem 0 rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 999;
+}
+.dibu a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 0.18rem;
+    height: 100%;
+}
+.dibu > .shouye > i{
+    font-size: 0.5rem;
+}
+.dibu > .dingdan > i{
+    font-size: 0.5rem;
+}
+.dibu > .wode > i{
+    font-size: 0.5rem;
+}
+.dibu a.active i{
+    color: red;
+}
+.dibu a.active span{
+    color: red;
+}
+

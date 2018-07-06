@@ -1,0 +1,271 @@
+header{
+    width: 100%;
+    height: 4rem;
+    padding: 0.4rem 0.24rem 0;
+    background-image: url("../img/plbg.png");
+    background-size: cover;
+}
+header .title{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0.2rem;
+}
+header .title .tright{
+    display: flex;
+    justify-content: space-between;
+    width: 1rem;
+}
+header .title i{
+    color: white;
+}
+header .title .tright i{
+    color:white;
+}
+.info{
+    width: 100%;
+    height: 2.42rem;
+    padding: 0.4rem 0.24rem 0;
+    border-bottom: 0.1rem solid #e1e0df;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info .left{
+    width: auto;
+    height: 100%;
+    font-size: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info .left p:nth-of-type(3){
+    color: red;
+}
+
+.info .you{
+    flex-grow: 1;
+    padding-top: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.info .you img{
+    width: 1.8rem;
+    height: 0.5rem;
+}
+.infoTwo{
+    width: 100%;
+    height: 1.48rem;
+    padding: 0 0.24rem;
+    border-bottom: 0.1rem solid #e1e0df;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.infoTwo li{
+    font-size: 0.36rem;
+}
+.infoTwo li:nth-of-type(1){
+    width: 100%;
+    height: auto;
+}
+.infoTwo li:nth-of-type(2){
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ping{
+	height: 6rem;
+	margin-bottom: 1.96rem;
+	overflow: scroll;
+}
+.pingjia{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 0.1rem solid #e1e0df;
+    font-size: 0.28rem;
+    padding: 0 0.24rem;
+}
+.pinglun{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.2rem;
+    padding: 0.1rem 0.24rem 0;
+    margin-top: 0.1rem;
+}
+.pinglun .zuobian{
+    width: auto;
+    height: 1.58rem;
+}
+ .pinglun .zuobian img{
+    width: 100%;
+    height: 100%;
+}
+ .pinglun .youbian{
+     flex-grow: 1;
+ }
+.pinglun .youbian .top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.3rem;
+    font-size: 0.3rem;
+}
+.pinglun .youbian .top .zuoce{
+    width: 2.6rem;
+    height: auto;
+}
+.pinglun .youbian .top .youce{
+    width: 1.5rem;
+}
+.pinglun .youbian .mid{
+    font-size: 0.26rem;
+    margin-bottom: 0.17rem;
+}
+.pinglun .youbian .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.gouwu{
+    width: 100%;
+    height: 1.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0.98rem;
+}
+.gouwu .gouwuXuan1{
+    width: 100%;
+    height: 0.3rem;
+    background: #faed7f;
+    font-size: 0.18rem;
+    color: #8e724f;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.gouwu .gouwuXuan2{
+    width: 100%;
+    height: 0.45rem;
+    background: #e3e2dc;
+    font-size: 0.18rem;
+    line-height: 0.45rem;
+    padding: 0 0.24rem 0 0.45rem;
+    display: flex;
+    justify-content:space-between;
+}
+.gouwu .gouwuXuan2 .qingchu{
+    color: #b6b5b0;
+}
+.gouwu .gouwuXuan3{
+    width: 100%;
+    height: 0.75rem;
+    font-size: 0.18rem;
+    background: #ffffff;
+    padding: 0 0.24rem 0 0.45rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.gouwu .gouwuXuan3 .jiaJian{
+    width: 1rem;
+    height: 0.28rem;
+    display: flex;
+    justify-content:space-between;
+}
+.gouwu .gouwuXuan3 .jiaJian .zuo{
+    width: 0.28rem;
+    height: 0.28rem;
+}
+.gouwu .gouwuXuan3 .jiaJian .zuo .zuoJ{
+    width: 100%;
+    height: 100%;
+}
+.gouwu .gouwuXuan3 .jiaJian .you{
+    width: 0.28rem;
+    height: 0.28rem;
+}
+.gouwu .gouwuXuan3 .jiaJian .you .youJ{
+    width: 100%;
+    height: 100%;
+}
+.gouwu .gouwuXuan3 .jiaJian .shu{
+    flex-grow:1;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.28rem;
+}
+.dibu{
+    width: 100%;
+    height: 0.98rem;
+    background: #514c46;
+    padding-left: 1.69rem;
+    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content:space-between;
+}
+.dibu .yuan{
+    width: 1rem;
+    height: 1rem;
+    background: #ee3131;
+    border-radius: 50%;
+    position: absolute;
+    left:0.45rem;
+    bottom: 0.15rem;
+    box-shadow: 0.01rem 0.01rem 0.1rem rgba(0,0,0,0.5);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.dibu .yuan .icon-gouwuche{
+    font-size: 0.55rem;
+    color: #ffffff;
+}
+.dibu .yuan .biaoqian{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background: #f37a0e;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.25rem;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dibu .yu{
+    width: 1rem;
+    height: 100%;
+    padding-top: 0.2rem;
+}
+.dibu .yu .qian{
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.dibu .yu .xianmian{
+    font-size: 0.24rem;
+    color: #797570;
+}
+.dibu .jiesuan {
+    width: 2.07rem;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #a59a8c;
+    text-align: center;
+    line-height: 0.98rem;
+    background: red;
+}
